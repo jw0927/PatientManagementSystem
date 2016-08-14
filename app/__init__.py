@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 from flask.ext.sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./templates')
 app.config.from_object('config')
 
-db=SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 @app.errorhandler(404)
 def not_found(error):
@@ -12,7 +12,9 @@ def not_found(error):
 
 @app.route('/Congratulation')
 def hello():
-    return "Hello World For this Application!"
+    return render_template('404.html')
 
 if __name__ == '__main__':
     app.run()
+
+db.create_all()
