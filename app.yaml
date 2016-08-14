@@ -1,7 +1,0 @@
-runtime: custom
-vm: true
-api_version: 1
-threadsafe: true
-health_check:
-    enable_health_check: False
-

@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get upgrade
 
 # Install Preliminaries
-RUN apt-get install -y python-pip python-dev python2.7-dev build-essential
+RUN apt-get install -y python-pip python-dev python2.7-dev build-essential python-mysqldb
 RUN apt-get install -y wget git 
 
 # Install Front End Frameworks
