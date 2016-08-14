@@ -23,4 +23,4 @@ EXPOSE 80
 EXPOSE 443
 EXPOSE 8080
 
-CMD ["python", "/PatientManagementSystem/run.py", "-p 8080"]
+CMD ["python", "/PatientManagementSystem/PMS-server/run.py", "-p 8080"]
