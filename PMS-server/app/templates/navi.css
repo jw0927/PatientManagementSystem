@@ -1,0 +1,23 @@
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.div-logo {
+  display:inline-block;
+}
+
+.div-logo h1 {
+  float:left;
+}
+
+.div-logo span {
+  margin-left: 10px;
+  padding-top: 20px;
+  float:left;
+}
