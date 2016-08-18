@@ -1,0 +1,23 @@
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #777;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #58AAC4;
+}
+
+.divider-vertical {
+    position:relative;
+    transform: 			translateY(50%);
+    height: 25px;
+    border-left: 1px solid #58AAC4;
+    margin: 0 15px;
+}
