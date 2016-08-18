@@ -1,0 +1,114 @@
+body {
+  width:100%;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.container {
+  left: 50%;
+  width: 500px;
+  margin:0 auto;
+}
+
+.container-form {
+  height: 220px;
+  background-color: white;
+
+  border-style: solid;
+  border-color: #58AAC4;
+  border-width: 10px;
+  border-radius: 15px;
+}
+
+.container-info {
+  border-top: solid 1px #58AAC4;
+  border-bottom: solid 1px #58AAC4;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.form-title {
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.form-title h1 {
+  float:left;
+}
+
+.form-title span {
+  margin-left: 10px;
+  padding-top: 20px;
+  float:left;
+}
+
+.form-login {
+  width: 400px;
+  margin: 0 auto;
+  padding:15px;
+}
+
+.form-login .div-input {
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+}
+
+.form-login .div-btn {
+  float: left;
+  width: 30%;
+}
+
+.form-login .form-control {
+  position:relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-login .form-control:focus {
+  z-index: 2;
+}
+
+.form-login input[type="id"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn {
+  border: 0 none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+  background: #58AAC4;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.form-login .btn-block {
+  margin-top: 20px;
+}
